@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55AF350F248A6D5A00E9497D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF350E248A6D5A00E9497D /* AppDelegate.swift */; };
+		55AF3511248A6D5A00E9497D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF3510248A6D5A00E9497D /* SceneDelegate.swift */; };
+		55AF3513248A6D5A00E9497D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF3512248A6D5A00E9497D /* ContentView.swift */; };
+		55AF3515248A6D5C00E9497D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AF3514248A6D5C00E9497D /* Assets.xcassets */; };
+		55AF3518248A6D5C00E9497D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AF3517248A6D5C00E9497D /* Preview Assets.xcassets */; };
+		55AF351B248A6D5C00E9497D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AF3519248A6D5C00E9497D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55AF350B248A6D5A00E9497D /* Take&GoCoffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take&GoCoffe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AF350E248A6D5A00E9497D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55AF3510248A6D5A00E9497D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55AF3512248A6D5A00E9497D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55AF3514248A6D5C00E9497D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55AF3517248A6D5C00E9497D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55AF351A248A6D5C00E9497D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55AF351C248A6D5C00E9497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55AF3508248A6D5A00E9497D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55AF3502248A6D5A00E9497D = {
+			isa = PBXGroup;
+			children = (
+				55AF350D248A6D5A00E9497D /* Take&GoCoffe */,
+				55AF350C248A6D5A00E9497D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55AF350C248A6D5A00E9497D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AF350B248A6D5A00E9497D /* Take&GoCoffe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AF350D248A6D5A00E9497D /* Take&GoCoffe */ = {
+			isa = PBXGroup;
+			children = (
+				55AF350E248A6D5A00E9497D /* AppDelegate.swift */,
+				55AF3510248A6D5A00E9497D /* SceneDelegate.swift */,
+				55AF3512248A6D5A00E9497D /* ContentView.swift */,
+				55AF3514248A6D5C00E9497D /* Assets.xcassets */,
+				55AF3519248A6D5C00E9497D /* LaunchScreen.storyboard */,
+				55AF351C248A6D5C00E9497D /* Info.plist */,
+				55AF3516248A6D5C00E9497D /* Preview Content */,
+			);
+			path = "Take&GoCoffe";
+			sourceTree = "<group>";
+		};
+		55AF3516248A6D5C00E9497D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55AF3517248A6D5C00E9497D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AF350A248A6D5A00E9497D /* Take&GoCoffe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AF351F248A6D5C00E9497D /* Build configuration list for PBXNativeTarget "Take&GoCoffe" */;
+			buildPhases = (
+				55AF3507248A6D5A00E9497D /* Sources */,
+				55AF3508248A6D5A00E9497D /* Frameworks */,
+				55AF3509248A6D5A00E9497D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take&GoCoffe";
+			productName = "Take&GoCoffe";
+			productReference = 55AF350B248A6D5A00E9497D /* Take&GoCoffe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55AF3503248A6D5A00E9497D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Andrey Mescheryakov";
+				TargetAttributes = {
+					55AF350A248A6D5A00E9497D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 55AF3506248A6D5A00E9497D /* Build configuration list for PBXProject "Take&GoCoffe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55AF3502248A6D5A00E9497D;
+			productRefGroup = 55AF350C248A6D5A00E9497D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AF350A248A6D5A00E9497D /* Take&GoCoffe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55AF3509248A6D5A00E9497D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AF351B248A6D5C00E9497D /* LaunchScreen.storyboard in Resources */,
+				55AF3518248A6D5C00E9497D /* Preview Assets.xcassets in Resources */,
+				55AF3515248A6D5C00E9497D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55AF3507248A6D5A00E9497D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AF350F248A6D5A00E9497D /* AppDelegate.swift in Sources */,
+				55AF3511248A6D5A00E9497D /* SceneDelegate.swift in Sources */,
+				55AF3513248A6D5A00E9497D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55AF3519248A6D5C00E9497D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55AF351A248A6D5C00E9497D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55AF351D248A6D5C00E9497D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55AF351E248A6D5C00E9497D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55AF3520248A6D5C00E9497D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Take&GoCoffe/Preview Content\"";
+				DEVELOPMENT_TEAM = H78FP3493K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Take&GoCoffe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EDMAKS--OOO.Take-GoCoffe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55AF3521248A6D5C00E9497D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Take&GoCoffe/Preview Content\"";
+				DEVELOPMENT_TEAM = H78FP3493K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Take&GoCoffe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "EDMAKS--OOO.Take-GoCoffe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55AF3506248A6D5A00E9497D /* Build configuration list for PBXProject "Take&GoCoffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AF351D248A6D5C00E9497D /* Debug */,
+				55AF351E248A6D5C00E9497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AF351F248A6D5C00E9497D /* Build configuration list for PBXNativeTarget "Take&GoCoffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AF3520248A6D5C00E9497D /* Debug */,
+				55AF3521248A6D5C00E9497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55AF3503248A6D5A00E9497D /* Project object */;
+}
